@@ -47,15 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'milkshake',
             img: 'images/milkshake.png'
-        },
-        {
-            name: 'hotdog',
-            img: 'images/hotdog.png'
-        },
-        {
-            name: 'hotdog',
-            img: 'images/hotdog.png'
-        },
+        }
     ];
 
     cardArray.sort((a, b) => 0.5 - Math.random());
